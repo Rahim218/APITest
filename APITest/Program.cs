@@ -16,6 +16,7 @@ namespace APITest
             bool isContionue;
             do
             {
+                Console.WriteLine("salam");
                 var result = await client.GetStringAsync(ApiUrl);
                var BoredActivity =JsonConvert.DeserializeObject<Bored>(result);
 
